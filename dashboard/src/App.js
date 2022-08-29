@@ -9,9 +9,6 @@ import { Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Ka
 
 const App = () => {
     const activeMenu = true;
-    // const activeMenu = false;
-    console.log(activeMenu);
-
 
     return (
         <div>

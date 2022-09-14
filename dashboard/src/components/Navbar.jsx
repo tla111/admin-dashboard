@@ -11,6 +11,8 @@ import { Cart, Chat, Notification, UserProfile } from '.';
 import { useStateContext } from '../contexts/ContextProvider';
 
 const Navbar = () => {
+    const { activeMenu, setActiveMenu } = useStateContext();
+
     return (
         <div>Navbar</div>
     )

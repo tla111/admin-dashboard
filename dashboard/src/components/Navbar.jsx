@@ -41,6 +41,13 @@ const Navbar = () => {
                     color="blue"
                     icon={<BsChatLeft />}
                 />
+                <NavButton
+                    title="Notifications"
+                    dotColor="#03C907"
+                    customFunc={() => handleClick("notification")}
+                    color="blue"
+                    icon={<RiNotification3Line />}
+                />
             </div>
         </div>
     )
